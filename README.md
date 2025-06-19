@@ -1,4 +1,4 @@
-# napari-tutorial
+# np-plugin-manual-spot-annotator
 
 [![License BSD-3](https://img.shields.io/pypi/l/napari-tutorial.svg?color=green)](https://github.com/janniswi00/napari-tutorial/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-tutorial.svg?color=green)](https://pypi.org/project/napari-tutorial)
@@ -25,8 +25,7 @@ https://napari.org/stable/plugins/index.html
 
 You can install `napari-tutorial` via [pip]:
 
-    pip install napari-tutorial
-
+    pip install np-plugin-manual-spot-annotator
 
 
 
