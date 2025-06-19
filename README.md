@@ -7,8 +7,6 @@
 [![codecov](https://codecov.io/gh/janniswi00/napari-tutorial/branch/main/graph/badge.svg)](https://codecov.io/gh/janniswi00/napari-tutorial)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-tutorial)](https://napari-hub.org/plugins/napari-tutorial)
 
-tut
-
 ----------------------------------
 
 This [napari] plugin was generated with [copier] using the [napari-plugin-template].
@@ -23,10 +21,18 @@ https://napari.org/stable/plugins/index.html
 
 ## Installation
 
-You can install `napari-tutorial` via [pip]:
+You can install `np-plugin-manual-spot-annotator` via [pip]:
 
     pip install np-plugin-manual-spot-annotator
 
+## Usage
+To launch the plugin, open napari and navigate to Plugins → Tutorial plugin → ExampleQWidget.
+
+Clicking on "Annotate Spots" will activate the annotation mode. A new layer will automatically be created for your annotations. You can then click directly in the image to place circular markers indicating spots of interest.
+
+As you annotate, a list of all marked spots along with their coordinates will appear in the plugin interface. By selecting an entry from the list, you can add a description in the associated text field.
+
+The final annotations can be easily exported as a CSV file.
 
 
 ## Contributing
